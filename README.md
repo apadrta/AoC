@@ -5,7 +5,7 @@
 * Solutions
 	* [2019](advent_of_code_2019/)
 	* [2020](advent_of_code_2020/)
-	* [2020](advent_of_code_2021/)
+	* [2021](advent_of_code_2021/)
 * File naming conventions 
 	* `input_check.txt` - example data for testing
 	* `input.txt` - real data
