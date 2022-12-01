@@ -2,12 +2,12 @@
 
 Comments for each task.
 
-# Day 1: 
+# Day 1: Calorie Counting
 
 * **Part 1**
-	*
+	* Find top sum.
 * **Part 2**
-	*
+	* Find top three sums.
 
 # Day 2: 
 
