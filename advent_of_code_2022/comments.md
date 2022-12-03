@@ -9,19 +9,19 @@ Comments for each task.
 * **Part 2**
 	* Find top three sums.
 
-# Day 2: 
+# Day 2: Rock Paper Scissors
 
 * **Part 1**
-	*
+	* Evaluate results of rock-paper-scissors game.
 * **Part 2**
-	* 
+	* Play rock-paper-scissors game according to instructions.
 
-# Day 3: 
+# Day 3: Rucksack Reorganization
 
 * **Part 1**
-	*
+	* Find intersection of two sets.
 * **Part 2**
-	*
+	* Find intersection of N sets, N > 2.
 
 # Day 4: 
 
