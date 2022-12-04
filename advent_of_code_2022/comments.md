@@ -23,12 +23,12 @@ Comments for each task.
 * **Part 2**
 	* Find intersection of N sets, N > 2.
 
-# Day 4: 
+# Day 4: Camp Cleanup
 
 * **Part 1**
-	*
+	* Find range within range.
 * **Part 2**
-	*
+	* Find overlapping ranges.
 
 # Day 5: 
 
