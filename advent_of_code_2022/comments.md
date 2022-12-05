@@ -30,12 +30,12 @@ Comments for each task.
 * **Part 2**
 	* Find overlapping ranges.
 
-# Day 5: 
+# Day 5: Supply Stacks
 
 * **Part 1**
-	*
+	* Move items one by one from stack to stack.
 * **Part 2**
-	*
+	* Move more items at once from stack to stack.
 
 # Day 6: 
 
