@@ -7,6 +7,7 @@ Advent of code 2022 - Day 5
 import argparse
 import string
 
+
 def get_args():
     """
     Cmd line argument parsing (preprocessing)
@@ -44,7 +45,7 @@ def process_data(data):
                     if idx // 4 not in stacks:
                         stacks[idx // 4] = ''
                     stacks[idx // 4] += value  # top value = most left value
-        elif 'move' in line:        
+        elif 'move' in line:
             moves.append([int(x) for x in line.replace('move ', '').replace('from ', '').replace('to ', '').split(' ')])
     return stacks, moves
 
