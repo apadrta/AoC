@@ -37,19 +37,19 @@ Comments for each task.
 * **Part 2**
 	* Move more items at once from stack to stack.
 
-# Day 6: 
+# Day 6: Tuning Trouble
 
 * **Part 1**
-	*
+	* Find sequence in data.
 * **Part 2**
-	*
+	* Find longer sequence in data.
 
-# Day 7: 
+# Day 7: No Space Left On Device
 
 * **Part 1**
-	*
+	* Parsing tree structure + evaluate nodes.
 * **Part 2**
-	*
+	* Parsing tree structure + evaluate nodes + find specific node.
  
 # Day 8: 
 
