@@ -51,12 +51,12 @@ Comments for each task.
 * **Part 2**
 	* Parsing tree structure + evaluate nodes + find specific node.
  
-# Day 8: 
+# Day 8: Treetop Tree Hous
 
 * **Part 1**
-	*
+	* Evaluate visibility of items in array (of trees).
 * **Part 2**
-	*
+	* Evaluate eyeshot from given elements in array (of trees).
 
 # Day 9: 
 
