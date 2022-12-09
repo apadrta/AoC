@@ -51,19 +51,19 @@ Comments for each task.
 * **Part 2**
 	* Parsing tree structure + evaluate nodes + find specific node.
  
-# Day 8: Treetop Tree Hous
+# Day 8: Treetop Tree House
 
 * **Part 1**
 	* Evaluate visibility of items in array (of trees).
 * **Part 2**
 	* Evaluate eyeshot from given elements in array (of trees).
 
-# Day 9: 
+# Day 9: Rope Bridge
 
 * **Part 1**
-	*
+	* Simulate movement of rope with one segment
 * **Part 2**
-	*
+	* Simulate movement of rope with nine segments
 
 # Day 10: 
 
