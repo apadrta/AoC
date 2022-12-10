@@ -65,12 +65,12 @@ Comments for each task.
 * **Part 2**
 	* Simulate movement of rope with nine segments
 
-# Day 10: 
+# Day 10: Cathode-Ray Tube
 
 * **Part 1**
-	*
+	* Evaluate given instruction in time.
 * **Part 2**
-	*
+	* Tranform instructions to image.
 
 # Day 11: 
 
