@@ -72,12 +72,12 @@ Comments for each task.
 * **Part 2**
 	* Tranform instructions to image.
 
-# Day 11: 
+# Day 11: Monkey in the Middle
 
 * **Part 1**
-	*
+	* Evaluate target monkey by algorithm based on divisibility.
 * **Part 2**
-	*
+	* Optimize the algorithm by utilising greatest common multiple.
 
 # Day 12: 
 
