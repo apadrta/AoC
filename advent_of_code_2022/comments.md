@@ -82,9 +82,9 @@ Comments for each task.
 # Day 12: 
 
 * **Part 1**
-	*
+	* Find shortest path (Dijkstra).
 * **Part 2**
-	*
+	* Find shortest path from different starting points (multiple use of Dijkstra).
 
 # Day 13: 
 
