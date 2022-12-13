@@ -79,19 +79,19 @@ Comments for each task.
 * **Part 2**
 	* Optimize the algorithm by utilising greatest common multiple.
 
-# Day 12: 
+# Day 12: Hill Climbing Algorithm
 
 * **Part 1**
 	* Find shortest path (Dijkstra).
 * **Part 2**
 	* Find shortest path from different starting points (multiple use of Dijkstra).
 
-# Day 13: 
+# Day 13: Distress Signal
 
 * **Part 1**
-	*
+	* Compare two structures according to given rules.
 * **Part 2**
-	*
+	* Use custom sorting function.
 
 # Day 14: 
 
