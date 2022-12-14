@@ -93,12 +93,12 @@ Comments for each task.
 * **Part 2**
 	* Use custom sorting function.
 
-# Day 14: 
+# Day 14: Regolith Reservoir
 
 * **Part 1**
-	*
+	* Simulate sand pouring.
 * **Part 2**
-	*
+	* Simulate sand pouring in larger scale.
 
 # Day 15: 
 
