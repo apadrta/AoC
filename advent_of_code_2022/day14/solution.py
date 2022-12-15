@@ -14,7 +14,7 @@ def get_args():
     """
     # Assign description to the help doc
     parser = argparse.ArgumentParser(
-        description='Advent of code 2022: Day 13')
+        description='Advent of code 2022: Day 14')
 
     # Add arguments
     parser.add_argument(

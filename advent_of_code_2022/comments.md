@@ -100,12 +100,12 @@ Comments for each task.
 * **Part 2**
 	* Simulate sand pouring in larger scale.
 
-# Day 15: 
+# Day 15: Beacon Exclusion Zone
 
 * **Part 1**
-	*
+	* Evaluate overlaps of 2D objects defined by manhattan distance.
 * **Part 2**
-	*
+	* Evaluate overlaps of 2D objects defined by manhattan distance (use in large scale).
 
 # Day 16: 
 
