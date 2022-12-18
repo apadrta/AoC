@@ -1,4 +1,4 @@
-# Advent of Code 2021 - Comments
+# Advent of Code 2022 - Comments
 
 Comments for each task.
 
@@ -107,26 +107,26 @@ Comments for each task.
 * **Part 2**
 	* Evaluate overlaps of 2D objects defined by manhattan distance (use in large scale).
 
-# Day 16: 
+# Day 16: Proboscidea Volcanium
 
 * **Part 1**
-	*
+	* Optimize movement in graph.
 * **Part 2**
-	*
+	* Optimize movement in graph for two entities at time.
 
-# Day 17: 
+# Day 17: Pyroclastic Flow
 
 * **Part 1**
-	*
+	* Built tower in tetris-like style from 2022 pieces.
 * **Part 2**
-	*
+	* Built tower in tetris-like style from 1 000 000 000 000.
 
-# Day 18: 
+# Day 18: Boiling Boulders
 
 * **Part 1**
-	*
+	* Sum number of cubes sides not attached to other ones.
 * **Part 2**
-	*
+	* Find air gaps inside boulder made from cubes
 
 # Day 19: 
 
