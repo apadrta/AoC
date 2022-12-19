@@ -126,14 +126,14 @@ Comments for each task.
 * **Part 1**
 	* Sum number of cubes sides not attached to other ones.
 * **Part 2**
-	* Find air gaps inside boulder made from cubes
+	* Find air gaps inside boulder made from cubes.
 
-# Day 19: 
+# Day 19: Not Enough Minerals
 
 * **Part 1**
-	*
+	* Find optimal sekvence of building factories.
 * **Part 2**
-	*
+	* Find optimal sekvence of building factories in longer time.
 
 # Day 20: 
 
