@@ -135,12 +135,12 @@ Comments for each task.
 * **Part 2**
 	* Find optimal sekvence of building factories in longer time.
 
-# Day 20: 
+# Day 20: Grove Positioning System
 
 * **Part 1**
-	*
+	* Move items in array.
 * **Part 2**
-	*
+	* Move items in array ten times.
 
 # Day 21: 
 
