@@ -142,13 +142,12 @@ Comments for each task.
 * **Part 2**
 	* Move items in array ten times.
 
-# Day 21: 
+# Day 21: Monkey Math
 
 * **Part 1**
-	*
+	* Make tree-based math operations to acquire root value.
 * **Part 2**
-	*
-
+	* Make tree-based math operations to acquire leaf value.
 # Day 22: 
 
 * **Part 1**
