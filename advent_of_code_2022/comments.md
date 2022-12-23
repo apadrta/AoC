@@ -148,12 +148,13 @@ Comments for each task.
 	* Make tree-based math operations to acquire root value.
 * **Part 2**
 	* Make tree-based math operations to acquire leaf value.
-# Day 22: 
+
+# Day 22: Monkey Map
 
 * **Part 1**
-	*
+	* Move on uneven map.
 * **Part 2**
-	*
+	* Move on map (shell of a cube).
 
 # Day 23: 
 
