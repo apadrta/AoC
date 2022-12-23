@@ -156,12 +156,12 @@ Comments for each task.
 * **Part 2**
 	* Move on map (shell of a cube).
 
-# Day 23: 
+# Day 23: Unstable Diffusion
 
 * **Part 1**
-	*
+	* Simulate elf moves.
 * **Part 2**
-	*
+	* Simulate elf moves until nobody moves.
 
 # Day 24: 
 
