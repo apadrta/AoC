@@ -163,12 +163,12 @@ Comments for each task.
 * **Part 2**
 	* Simulate elf moves until nobody moves.
 
-# Day 24: 
+# Day 24: Blizzard Basin
 
 * **Part 1**
-	*
+	* Dodge among blizzards.
 * **Part 2**
-	*
+	* Dodge among blizzards forth and back and forth again.
 
 # Day 25: 
 
