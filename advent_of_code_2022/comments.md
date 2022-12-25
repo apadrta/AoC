@@ -170,9 +170,9 @@ Comments for each task.
 * **Part 2**
 	* Dodge among blizzards forth and back and forth again.
 
-# Day 25: 
+# Day 25: Full of Hot Air
 
 * **Part 1**
-	*
+	* Arithmetic with specific numeric system.
 * **Part 2**
-	*
+	* Clink on link :-)
