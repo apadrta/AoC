@@ -9,19 +9,19 @@ Comments for each task.
 * **Part 2**
 	* Find first and last digit (multiple char)
 
-# Day 2: 
+# Day 2: Cube Conundrum
 
 * **Part 1**
-	* 
+	* Check limits from 3 colors
 * **Part 2**
-	* 
+	* Get maximum from 3 colots
 
-# Day 3: 
+# Day 3: Gear Ratios
 
 * **Part 1**
-	* 
+	* Find neighbors in 2D.
 * **Part 2**
-	* 
+	* Find number of neighbors in 2D.
 
 # Day 4: 
 
