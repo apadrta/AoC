@@ -165,6 +165,21 @@ def parse_data(lines):
     return insts
 
 
+def get_source_pos(target_pos, decksize, order):
+    """
+    Compute position of source
+    """
+    if order[0] == 'stack':
+        return decksize - (target_pos + 1)
+    if order[0] == 'cut':
+        cutpos = (decksize + order[1]) % decksize
+        if target_pos <= cutpos:
+            return target_pos + (decksize - cutpos) - 1
+        return target_pos - cutpos
+    if order[0] == 'increment':
+        return -1
+    return None
+
 def main():
     """
     Main function
@@ -180,20 +195,29 @@ def main():
     lines = [x.replace('\n', '').replace('\r', '') for x in data]
     orders = parse_data(lines)
     # part one
-    deck = ElfCardDeck()
-    deck.create_deck(decksize)
-    for order in orders:
-        print(order)
-        if order[0] == 'stack':
-            deck.deal_into_new_stack()
-        elif order[0] == 'cut':
-            deck.cut_cards(order[1])
-        elif order[0] == 'increment':
-            deck.deal_with_increment(order[1])
-    res = deck.get_position(2019)
-    print(f"Solution of part 1: {res}")
+#    deck = ElfCardDeck()
+#    deck.create_deck(decksize)
+#    for order in orders:
+#        print('.', end='')
+#        if order[0] == 'stack':
+#            deck.deal_into_new_stack()
+#        elif order[0] == 'cut':
+#            deck.cut_cards(order[1])
+#        elif order[0] == 'increment':
+#            deck.deal_with_increment(order[1])
+#    res = deck.get_position(2019)
+#    print(f"\nSolution of part 1: {res}")
 
     # part two
+#    print(get_source_pos(1, 10, ['stack']))
+#    print(get_source_pos(3, 10, ['cut', 3]))
+#    print(get_source_pos(7, 10, ['cut', -7]))
+#    print(get_source_pos(7, 10, ['increment', 3]))
+    size = 10
+    inc = 3
+    for idx in range(0, size):
+        print(idx, idx*inc, idx*inc % size)
+    print((size-1)*inc)
 #    print(f"Solution of part 2: {res}")
 
 

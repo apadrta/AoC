@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding:utf-8 -*-
 """
-Advent of code 2023 - Day 3
+Advent of code 2023 - Day 4
 """
 
 import argparse
@@ -13,7 +13,7 @@ def get_args():
     """
     # Assign description to the help doc
     parser = argparse.ArgumentParser(
-        description='Advent of code 2023: Day 3'
+        description='Advent of code 2023: Day 4'
         )
 
     # Add arguments
