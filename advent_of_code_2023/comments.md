@@ -23,12 +23,12 @@ Comments for each task.
 * **Part 2**
 	* Find number of neighbors in 2D.
 
-# Day 4: 
+# Day 4: Scratchcards
 
 * **Part 1**
-	* 
+	* Find intersection of two sets.
 * **Part 2**
-	* 
+	* Sum card creation.
 
 # Day 5: 
 
