@@ -30,19 +30,19 @@ Comments for each task.
 * **Part 2**
 	* Sum card creation.
 
-# Day 5: 
+# Day 5: If You Give A Seed A Fertilizer
 
 * **Part 1**
-	* 
+	* Chain of translation tables.
 * **Part 2**
-	* 
+	* Chain of translation tables (large scale)
 
-# Day 6: 
+# Day 6: Wait For It
 
 * **Part 1**
-	* 
+	* Find suitable settings of two interdependent variables.
 * **Part 2**
-	* 
+	* Find suitable settings of two interdependent variables (large scale)
 
 # Day 7: 
 
