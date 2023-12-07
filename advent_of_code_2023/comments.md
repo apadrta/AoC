@@ -44,12 +44,12 @@ Comments for each task.
 * **Part 2**
 	* Find suitable settings of two interdependent variables (large scale)
 
-# Day 7: 
+# Day 7: Camel Cards
 
 * **Part 1**
-	* 
+	* Sort "poker hands" by value
 * **Part 2**
-	* 
+	* Sort "poker hands" by value + assign value to jokers card
  
 # Day 8: 
 
