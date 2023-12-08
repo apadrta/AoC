@@ -52,7 +52,7 @@ def read_data_struct(filename):
 
 def move_to_zzz(dirs, maps, src='AAA', dst='ZZZ'):
     """
-    Move from AAA to ZZZ
+    Move from src (default AAA) to dst (default ZZZ) node
     """
     pos = src
     inst = 0
@@ -66,7 +66,7 @@ def move_to_zzz(dirs, maps, src='AAA', dst='ZZZ'):
 
 def move_to_z(dirs, maps, src='AAA'):
     """
-    Move from AAA to ZZZ
+    Move from src node (default AAA) to any node ending by Z
     """
     pos = src
     inst = 0
