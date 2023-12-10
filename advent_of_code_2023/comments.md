@@ -51,26 +51,26 @@ Comments for each task.
 * **Part 2**
 	* Sort "poker hands" by value + assign value to jokers card
  
-# Day 8: 
+# Day 8: Haunted Wasteland
 
 * **Part 1**
-	* 
+	* Follow direction in binary map (left, right) from source do destination.
 * **Part 2**
-	* 
+	* Follow direction in binary map (left, right) from source do destination (parallel for several sources).
 
-# Day 9: 
+# Day 9: Mirage Maintenance
 
 * **Part 1**
-	* 
+	* Forward prediction (array indexing exercise)
 * **Part 2**
-	* 
+	* Backward prediction (array indexing exercise)
 
-# Day 10: 
+# Day 10: Pipe Maze
 
 * **Part 1**
-	* 
+	* Find the most distant point (in loop, 2D, no branching/crossings).
 * **Part 2**
-	* 
+	* Find points inside the loop.
 
 # Day 11: 
 
