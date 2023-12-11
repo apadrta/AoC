@@ -72,12 +72,12 @@ Comments for each task.
 * **Part 2**
 	* Find points inside the loop.
 
-# Day 11: 
+# Day 11: Cosmic Expansion
 
 * **Part 1**
-	* 
+	* Compute city block distance (some rows/columns on map should be counted as two)
 * **Part 2**
-	* 
+	* Compute city block distance (some rows/columns on map should be counted as milion)
 
 # Day 12: 
 
