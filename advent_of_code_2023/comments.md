@@ -79,12 +79,12 @@ Comments for each task.
 * **Part 2**
 	* Compute city block distance (some rows/columns on map should be counted as milion)
 
-# Day 12: 
+# Day 12: Hot springs
 
 * **Part 1**
-	* 
+	* Count number of possible arrangement in grid
 * **Part 2**
-	* 
+	* Count number of possible arrangement in grid (large scale)
 
 # Day 13: 
 
