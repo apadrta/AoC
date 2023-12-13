@@ -86,12 +86,12 @@ Comments for each task.
 * **Part 2**
 	* Count number of possible arrangement in grid (large scale)
 
-# Day 13: 
+# Day 13: Point of Incidence
 
 * **Part 1**
-	* 
+	* Find vertical and horizonal axes of symmetry in 2D 
 * **Part 2**
-	* 
+	* Find vertical and horizonal axes of symmetry in 2D (exactly one point is wrong)
 
 # Day 14: 
 
