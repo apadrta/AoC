@@ -93,12 +93,12 @@ Comments for each task.
 * **Part 2**
 	* Find vertical and horizonal axes of symmetry in 2D (exactly one point is wrong)
 
-# Day 14: 
+# Day 14: Parabolic Reflector Dish
 
 * **Part 1**
-	* 
+	* Count positions of round stones in maze (one time, one directon)
 * **Part 2**
-	* 
+	* Count positions of round stones in maze (after 1 bilion cycles, where cycle is moving up, left, down and right)
 
 # Day 15: 
 
