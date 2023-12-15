@@ -100,12 +100,12 @@ Comments for each task.
 * **Part 2**
 	* Count positions of round stones in maze (after 1 bilion cycles, where cycle is moving up, left, down and right)
 
-# Day 15: 
+# Day 15: Lens Library
 
 * **Part 1**
-	* 
+	* Compute custom hash
 * **Part 2**
-	* 
+	* Operate with set of arrays
 
 # Day 16: 
 
