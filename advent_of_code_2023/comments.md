@@ -107,12 +107,12 @@ Comments for each task.
 * **Part 2**
 	* Operate with set of arrays
 
-# Day 16: 
+# Day 16: The Floor Will Be Lava
 
 * **Part 1**
-	* 
+	* Trace ray through mirror maze
 * **Part 2**
-	* 
+	* Trace ray through mirror maze (repeat multiple times)
 
 # Day 17: 
 
