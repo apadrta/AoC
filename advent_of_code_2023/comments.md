@@ -114,12 +114,12 @@ Comments for each task.
 * **Part 2**
 	* Trace ray through mirror maze (repeat multiple times)
 
-# Day 17: 
+# Day 17: Clumsy Crucible
 
 * **Part 1**
-	* 
+	* Find path with minimal heat loss (Dijkstra with special rules)
 * **Part 2**
-	* 
+	* Find path with minimal heat loss (Dijkstra with another special rules)
 
 # Day 18: 
 
