@@ -121,12 +121,12 @@ Comments for each task.
 * **Part 2**
 	* Find path with minimal heat loss (Dijkstra with another special rules)
 
-# Day 18: 
+# Day 18: Lavaduct Lagoon
 
 * **Part 1**
-	* 
+	* Find area of polygon.
 * **Part 2**
-	* 
+	* Find area of polygon (large scale)
 
 # Day 19: 
 
