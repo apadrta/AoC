@@ -128,12 +128,12 @@ Comments for each task.
 * **Part 2**
 	* Find area of polygon (large scale)
 
-# Day 19: 
+# Day 19: Aplenty
 
 * **Part 1**
-	* 
+	* Evaluate parts according to given rules.
 * **Part 2**
-	* 
+	* count the number of combinations that meet the rules.
 
 # Day 20: 
 
