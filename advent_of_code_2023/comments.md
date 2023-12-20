@@ -135,12 +135,12 @@ Comments for each task.
 * **Part 2**
 	* count the number of combinations that meet the rules.
 
-# Day 20: 
+# Day 20: Pulse Propagation
 
 * **Part 1**
-	* 
+	* Evaluate pulse propagation in logical circuits.
 * **Part 2**
-	* 
+	* Evaluate when the logical circuits produce given pulse on output.
 
 # Day 21: 
 
