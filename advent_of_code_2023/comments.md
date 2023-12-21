@@ -142,12 +142,12 @@ Comments for each task.
 * **Part 2**
 	* Evaluate when the logical circuits produce given pulse on output.
 
-# Day 21: 
+# Day 21: Step Counter
 
 * **Part 1**
-	* 
+	* Count possible final positions after N steps in maze.
 * **Part 2**
-	* 
+	* Count possible final positions after N (very large N) steps in infinite maze.
 
 # Day 22: 
 
