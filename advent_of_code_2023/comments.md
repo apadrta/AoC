@@ -149,12 +149,12 @@ Comments for each task.
 * **Part 2**
 	* Count possible final positions after N (very large N) steps in infinite maze.
 
-# Day 22: 
+# Day 22: Sand Slabs
 
 * **Part 1**
-	* 
+	* Throw bricks into shaft and find removable ones (do not affect position of other bricks).
 * **Part 2**
-	* 
+	* Count how many bricks fall if some brick is removed.
 
 # Day 23: 
 
