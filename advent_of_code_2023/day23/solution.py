@@ -45,25 +45,31 @@ def read_data_struct(filename):
     return data
 
 
-def get_dists(data):
+def get_pois(data):
     """
-    compute distances in maze (
+    find crossroads
     """
     height = len(data)
     width = len(data[0])
-
-    # get points of interests (all crosroads)
     pois = [[0, 1], [height - 1, width - 2]]
+
     for idx in range(1, height - 1):
         for jdx in range(1, width - 1):
             if data[idx][jdx] != '.':
                 continue
             entrances = [data[idx - 1][jdx], data[idx + 1][jdx], data[idx][jdx - 1], data[idx][jdx + 1]]
-            if entrances.count('.') + entrances.count('v') + entrances.count('^') + entrances.count('<') + entrances.count('>') > 2:
+            if entrances.count('#') < 2:
                 pois.append([idx, jdx])
+    return pois
 
-    # prepare possible trails
+
+def get_trails(data, pois):
+    """
+    get trails beginnings
+    """
+    height = len(data)
     trails = []
+
     for poi in pois:
         if data[poi[0]][poi[1] + 1] in '.>':
             trails.append([[poi[0], poi[1] + 1], 'L', poi])
@@ -73,9 +79,34 @@ def get_dists(data):
             trails.append([[poi[0] - 1, poi[1]], 'D', poi])
         if poi[0] < height - 2 and data[poi[0] + 1][poi[1]] in '.v':
             trails.append([[poi[0] + 1, poi[1]], 'U', poi])
+    return trails
 
-    # compute path between pois
+
+def get_trails_part2(data, pois):
+    """
+    get trails beginnings
+    """
+    height = len(data)
+    trails = []
+
+    for poi in pois:
+        if data[poi[0]][poi[1] + 1] != '#':
+            trails.append([[poi[0], poi[1] + 1], 'L', poi])
+        if data[poi[0]][poi[1] - 1] != '#':
+            trails.append([[poi[0], poi[1] - 1], 'R', poi])
+        if poi[0] > 0 and data[poi[0] - 1][poi[1]] != '#':
+            trails.append([[poi[0] - 1, poi[1]], 'D', poi])
+        if poi[0] < height - 2 and data[poi[0] + 1][poi[1]] != '#':
+            trails.append([[poi[0] + 1, poi[1]], 'U', poi])
+    return trails
+
+
+def get_paths(data, pois, trails):
+    """
+    get all possible paths for given trail beginnings
+    """
     paths = {}
+
     for trail in trails:
         pos = deepcopy(trail[0])
         fromdir = trail[1]
@@ -101,59 +132,15 @@ def get_dists(data):
                     paths[tuple(trail[2])] = {}
                 paths[tuple(trail[2])][tuple(pos)] = length
                 break
-
-    # find longest path
-    buff = [[(0, 1), 0, [(0, 1)]]]
-    visited = {(0, 1): 0}
-    maxtrail = 0
-    while buff:
-        work = buff.pop()
-        if work[0] == (height - 1, width - 2):
-            if work[1] > maxtrail:
-                maxtrail = work[1]
-            continue
-        for target, dist in paths[work[0]].items():
-            if target in work[2]:
-                continue
-            if target in visited and visited[target] > work[1] + dist:
-                continue
-            buff.append([target, work[1] + dist, work[2] + [target]])
-            visited[target] = work[1] + dist
-
-    return maxtrail
+    return paths
 
 
-def get_dists_both_ways(data):
+def get_paths_part2(data, pois, trails):
     """
-    compute distances ingoring slopes
+    get all possible paths for given trail beginnings
     """
-    height = len(data)
-    width = len(data[0])
-
-    # get points of interests (all crosroads)
-    pois = [[0, 1], [height - 1, width - 2]]
-    for idx in range(1, height - 1):
-        for jdx in range(1, width - 1):
-            if data[idx][jdx] != '.':
-                continue
-            entrances = [data[idx - 1][jdx], data[idx + 1][jdx], data[idx][jdx - 1], data[idx][jdx + 1]]
-            if entrances.count('.') + entrances.count('v') + entrances.count('^') + entrances.count('<') + entrances.count('>') > 2:
-                pois.append([idx, jdx])
-
-    # prepare possible trails
-    trails = []
-    for poi in pois:
-        if data[poi[0]][poi[1] + 1] != '#':
-            trails.append([[poi[0], poi[1] + 1], 'L', poi])
-        if data[poi[0]][poi[1] - 1] != '#':
-            trails.append([[poi[0], poi[1] - 1], 'R', poi])
-        if poi[0] > 0 and data[poi[0] - 1][poi[1]] != '#':
-            trails.append([[poi[0] - 1, poi[1]], 'D', poi])
-        if poi[0] < height - 2 and data[poi[0] + 1][poi[1]] != '#':
-            trails.append([[poi[0] + 1, poi[1]], 'U', poi])
-
-    # compute path between pois
     paths = {}
+
     for trail in trails:
         pos = deepcopy(trail[0])
         fromdir = trail[1]
@@ -177,24 +164,62 @@ def get_dists_both_ways(data):
                     paths[tuple(trail[2])] = {}
                 paths[tuple(trail[2])][tuple(pos)] = length
                 break
+    return paths
 
-    # find longest path
+
+def find_longest_path(paths, out):
+    """
+    find longest path
+    """
     buff = [[(0, 1), 0, [(0, 1)]]]
-    visited = {(0, 1): 0}
     maxtrail = 0
     while buff:
         work = buff.pop()
-        if work[0] == (height - 1, width - 2):
+        if work[0] == out:
             if work[1] > maxtrail:
                 maxtrail = work[1]
             continue
         for target, dist in paths[work[0]].items():
             if target in work[2]:
                 continue
-            visited[target] = work[1] + dist
             buff.append([target, work[1] + dist, work[2] + [target]])
-
     return maxtrail
+
+
+def get_dists(data):
+    """
+    compute distances in maze
+    """
+
+    # get points of interests (all crosroads)
+    pois = get_pois(data)
+
+    # prepare possible trails
+    trails = get_trails(data, pois)
+
+    # compute path between pois
+    paths = get_paths(data, pois, trails)
+
+    # find longest path
+    return find_longest_path(paths, (len(data) - 1, len(data[0]) - 2))
+
+
+def get_dists_both_ways(data):
+    """
+    compute distances ingoring slopes
+    """
+
+    # get points of interests (all crosroads)
+    pois = get_pois(data)
+
+    # prepare possible trails
+    trails = get_trails_part2(data, pois)
+
+    # compute path between pois
+    paths = get_paths_part2(data, pois, trails)
+
+    # find longest path
+    return find_longest_path(paths, (len(data) - 1, len(data[0]) - 2))
 
 
 def main():
