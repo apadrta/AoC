@@ -156,12 +156,12 @@ Comments for each task.
 * **Part 2**
 	* Count how many bricks fall if some brick is removed.
 
-# Day 23: 
+# Day 23: A Long Walk
 
 * **Part 1**
-	* 
+	* Find longest distance without repeating (restrictions in path).
 * **Part 2**
-	* 
+	* Find longest distance without repeating (no restrictions in path).
 
 # Day 24: 
 
