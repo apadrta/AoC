@@ -163,12 +163,12 @@ Comments for each task.
 * **Part 2**
 	* Find longest distance without repeating (no restrictions in path).
 
-# Day 24: 
+# Day 24: Never Tell Me The Odds
 
 * **Part 1**
-	* 
+	* Find intersections of lines.
 * **Part 2**
-	* 
+	* Find line trajectory of rock, which hits all objects moving on 
 
 # Day 25: 
 
