@@ -170,9 +170,9 @@ Comments for each task.
 * **Part 2**
 	* Find line trajectory of rock, which hits all objects moving on 
 
-# Day 25: 
+# Day 25: Snowverload
 
 * **Part 1**
-	* 
+	* Find three edges in undirected graph to remove in order to split the graph to two separate components ().
 * **Part 2**
-	* 
+	* Collect 49 golden stars :-)
