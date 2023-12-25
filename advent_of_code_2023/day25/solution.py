@@ -90,14 +90,10 @@ def main():
     data = read_data_struct(infile)
 
     # part 1
-#    count = components_multiply(data, nodes)
     count = div_components(data)
     print(f"Part 1 solution : {count}")
 
-    # part 2
-#    count = find2(data)
-#    print(f"Part 2 solution: {count}")
-
+    # no part 2
 
 if __name__ == '__main__':
     main()
