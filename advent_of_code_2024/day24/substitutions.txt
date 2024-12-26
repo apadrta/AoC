@@ -1,0 +1,11 @@
+Ordered pairs:
+cph,gws,hgj,nnt,npf,z13,z19,z33
+
+Changes:
+x09 AND y09 -> gws	x09 AND y09 -> nnt
+y09 XOR x09 -> nnt	y09 XOR x09 -> gws
+hgw XOR kvr -> npf	hgw XOR kvr -> z13
+fmh OR tqs -> z13	fmh OR tqs -> npf
+rsm XOR fnq -> cph	rsm XOR fnq -> z19
+wtm XOR wgq -> hgj	wtm XOR wgq -> z33
+wgq AND wtm -> z33	wgq AND wtm -> hgj
